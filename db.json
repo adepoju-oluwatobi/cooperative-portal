@@ -2,38 +2,33 @@
   "users": [
     {
       "id": 1,
-      "name": "LastName Firstname",
-      "email": "username@domain",
-      "savings": "N20,000",
-      "balance": "N90,000"
-    },
-    {
-      "id": 2,
-      "name": "God Firstname",
-      "email": "username@domain",
-      "savings": "N20,000",
-      "balance": "N90,000"
-    },
-    {
-      "id": 3,
       "name": "Adepoju Oluwatobi",
-      "email": "username@domain",
-      "savings": "N20,000",
-      "balance": "N90,000"
+      "email": "Kunletobi4@gmail.com",
+      "savings": "20,000",
+      "balance": "100,000",
+      "loan": "20,000",
+      "loan_repayment": "50,000",
+      "purchase": "-"
     },
     {
-      "id": 4,
-      "name": "Adepoju Oluwatobi",
-      "email": "username@domain",
-      "savings": "N20,000",
-      "balance": "N90,000"
-    },
-    {
-      "name": "Adelani Olumide",
-      "email": "tolulopeadeola96@gmail.com",
+      "name": "Adelani",
+      "email": "Olummide@gmail.com",
       "savings": "N30,000",
-      "balance": "N0",
-      "id": 5
+      "balance": "N500,000",
+      "loan": "N300,000",
+      "loan_repayment": "90,000",
+      "purchase": "100,000",
+      "id": 2
+    },
+    {
+      "name": "new user",
+      "email": "newuser@gmail.com",
+      "savings": "N30,000",
+      "balance": "-",
+      "loan": "",
+      "loan_repayment": "",
+      "purchase": "",
+      "id": 3
     }
   ]
 }

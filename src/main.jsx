@@ -10,6 +10,7 @@ import "./index.css";
 import LoginPage from "./pages/LoginPage";
 import Admin from "./pages/Admin";
 import CreateMember from "./component/CreateMember";
+import Edit from "./component/Edit";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "create-member",
     element: <CreateMember />
+  },
+  {
+    path: "Update/:id",
+    element: <Edit />
   }
 ]);
 

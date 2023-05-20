@@ -28,7 +28,6 @@
     @apply text-blue-600
   }
   .table,th,td{
-    border: 1px solid black;
     padding: 10px;
   }
   thead{
@@ -36,8 +35,7 @@
     color: white;
     border: 1px solid grey;
   }
-  tbody{
-    background: grey;
-    color: white;
+  td{
+    border-bottom: 1px solid black; 
   }
 }

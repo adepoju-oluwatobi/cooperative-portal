@@ -1,9 +1,9 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function CreateMember() {
-  const [inputData, setInputData] = useState({name:'', email:'', savings:'', balance:''})
+  const [inputData, setInputData] = useState({name:'', email:'', savings:'', balance:'', loan:'', loan_repayment: '', purchase: '' })
 
   const navigat = useNavigate();
 
@@ -17,8 +17,9 @@ function CreateMember() {
     }).catch(err => console.log(err));
   }
   return (
-    <div className='text-center container'>
-      <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
+    <div className='container w-[600px]'>
+     <p> <Link to ='/admin'>Dashboard</Link> | <span className='text-slate-300'>Create-Member</span></p>
+      <form className='flex flex-col gap-4 text-center mt-4' onSubmit={handleSubmit}>
         <input type="text" placeholder='Enter Name' name='name' className='form-input' 
         onChange={e=>setInputData({...inputData, name: e.target.value})}
         />

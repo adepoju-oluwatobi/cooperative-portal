@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "LastName Firstname",
+      "email": "username@domain",
+      "savings": "N20,000",
+      "balance": "N90,000"
+    },
+    {
+      "id": 2,
+      "name": "LastName Firstname",
+      "email": "username@domain",
+      "savings": "N20,000",
+      "balance": "N90,000"
+    },
+    {
+      "id": 3,
+      "name": "Adepoju Oluwatobi",
+      "email": "username@domain",
+      "savings": "N20,000",
+      "balance": "N90,000"
+    },
+    {
+      "id": 4,
+      "name": "Adepoju Oluwatobi",
+      "email": "username@domain",
+      "savings": "N20,000",
+      "balance": "N90,000"
+    }
+  ]
+}

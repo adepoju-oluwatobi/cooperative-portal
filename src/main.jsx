@@ -8,11 +8,12 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import LoginPage from "./pages/LoginPage";
+import Admin from "./pages/Admin";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Admin />,
   },
   {
     path: "login",

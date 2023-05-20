@@ -1,0 +1,34 @@
+Cooperative website algorithm
+MEMBER PORTAL
+1. New user can register
+2. the form would contain the following:
+•	First name
+•	Last name
+•	Email address
+•	Address
+•	Campus
+•	Department
+•	Marital status
+•	And an evidence of payment
+•	And a submit button
+3. The details of the form will be submitted to a database
+4. upon sign up, they are sent to a page with the text “we are glad you joined”
+5. There would be a button to direct them to the home page.
+6. The details will be used to generate a profile for the user
+7. The profile will contain the following:
+•	A profile picture
+•	Name of the user
+•	Campus and department
+•	Total amount
+•	Monthly savings
+•	Loan amount if any
+•	Monthly loan deduction
+•	A button to get a loan
+•	A button to make a purchase
+8. After payment confirmation, the user will be sent a mail containing their login details.
+
+ADMIN PORTAL
+1. The admin can add users with the details provided by the user when registering
+2. The admin can generate the login detail for each user
+3. The admin can edit each user profile.
+4. The admin can delete user.

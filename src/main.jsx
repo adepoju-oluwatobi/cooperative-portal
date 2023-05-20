@@ -9,6 +9,7 @@ import {
 import "./index.css";
 import LoginPage from "./pages/LoginPage";
 import Admin from "./pages/Admin";
+import CreateMember from "./component/CreateMember";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: "register",
     element: <SignUpPage />
   },
+  {
+    path: "create-member",
+    element: <CreateMember />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

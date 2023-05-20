@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Admin() {
   const [columns, setColumns] = useState([])
@@ -13,7 +14,12 @@ function Admin() {
     })
   }, [])
   return (
-    <div>
+    <div className='container w-fit'>
+      <div className="text-end mb-4">
+        <Link to = '/create-member'>
+        <button className='btn bg-green-800'>Add Member</button>
+        </Link>
+        </div>
       <table className='table'>
         <thead>
           <tr>

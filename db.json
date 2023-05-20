@@ -27,6 +27,13 @@
       "email": "username@domain",
       "savings": "N20,000",
       "balance": "N90,000"
+    },
+    {
+      "name": "Adelani Olumide",
+      "email": "tolulopeadeola96@gmail.com",
+      "savings": "N30,000",
+      "balance": "N0",
+      "id": 5
     }
   ]
 }

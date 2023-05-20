@@ -19,6 +19,7 @@ function LoginPage() {
          <input type='email' placeholder='Enter your email' className='form-input' />
          <input type="password" placeholder='Enter your password' className='form-input' />
          <input type="submit" value='Login' className='btn' />
+         <p className='text-center text-red-700'>Login as an <Link to = '/admin'>Admin</Link></p>
         </form>
       </div>
     </div>

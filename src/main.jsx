@@ -12,11 +12,11 @@ import Admin from "./pages/Admin";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/admin",
     element: <Admin />,
   },
   {
-    path: "login",
+    path: "/",
     element: <LoginPage />
   },
   {
